@@ -1,4 +1,4 @@
-module github.com/sivchari/gotwtr
+module github.com/928799934/gotwtr
 
 go 1.19
 
