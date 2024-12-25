@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/sivchari/gotwtr"
+	"github.com/928799934/gotwtr"
 )
 
 func ExampleClient_GenerateAppOnlyBearerToken() {

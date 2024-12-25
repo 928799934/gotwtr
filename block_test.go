@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sivchari/gotwtr"
+	"github.com/928799934/gotwtr"
 )
 
 func Test_blocking(t *testing.T) {

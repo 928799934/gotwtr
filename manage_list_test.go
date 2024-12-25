@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/928799934/gotwtr"
 	"github.com/google/go-cmp/cmp"
-	"github.com/sivchari/gotwtr"
 )
 
 func Test_CreateNewList(t *testing.T) {

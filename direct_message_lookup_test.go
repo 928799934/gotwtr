@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/928799934/gotwtr"
 	"github.com/google/go-cmp/cmp"
-	"github.com/sivchari/gotwtr"
 )
 
 //go:embed testdata/lookup_all_one_to_one_dm.json
