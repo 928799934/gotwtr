@@ -197,6 +197,10 @@ func New(bearerToken string, opts ...ClientOption) *Client {
 	}
 }
 
+func (c *client) BearerToken(ctx context.Context) string {
+	return c.bearerToken
+}
+
 // GenerateAppOnlyBearerToken generates a bearer token for app-only auth.
 func (c *client) GenerateAppOnlyBearerToken(ctx context.Context) (bool, error) {
 	return generateAppOnlyBearerToken(ctx, c)
